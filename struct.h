@@ -2,10 +2,9 @@
 
 #pragma once
 #include<iostream>
-#include <malloc.h>
-#include <string.h>
-#include <time.h>
-#include <stdio.h>
+#include <cstdlib>
+#include <string>
+#include <ctime>
 #define  BLOCKSIZE  1024      //磁盘块大小
 #define  SIZE         1024000   //虚拟磁盘空间大小
 #define  END         65535     //文件结束标志
