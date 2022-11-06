@@ -6,7 +6,7 @@ cmake_minimum_required (VERSION 3.8)
 project ("期末作业")
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (CMakeTarget  "期末作业.h" "源1.cpp")
+add_executable (CMakeTarget  "struct.h" "main.cpp" )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeTarget PROPERTY CXX_STANDARD 20)
